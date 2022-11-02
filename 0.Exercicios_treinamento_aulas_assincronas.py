@@ -130,13 +130,37 @@
 # caso um número ímpar seja digitado, informe ao usuário que ele digitou um valor ímpar e peça novamente por um número par;
 # caso uma letra seja digitada, informe ao usuário que ele digitou um caractere inválido e peça novamente por um número par.
 
-try:
-  print("Digite um número par: ")
-  numPar = float(input())
+# try:
+#   print("Digite um número par: ")
+#   numPar = float(input())
 
-  if numPar % 2 == 0:
-    print("Muito bem!!! O número digitado", numPar, "é par!")
-  else:
-    print("Número ímpar, favor digitar um número par")   
-except:
-  print("Caractere inválido, favor digitar um número par")
+#   if numPar % 2 == 0:
+#     print("Muito bem!!! O número digitado", numPar, "é par!")
+#   else:
+#     print("Número ímpar, favor digitar um número par")   
+# except:
+#   print("Caractere inválido, favor digitar um número par")
+
+# 9 ---------------------------------------
+# Hoje é segunda-feira, e precisamos regar todas as plantas. Imprime uma mensagem por 
+# cada planta pedindo ao robô para regá-la.
+
+# Solução com For
+# for i in range(6):
+#   print("Robozinho, regue a planta de nº", i)
+
+# Solução com While
+# contador = 0
+
+# while(contador <= 5):
+#   print("Robozinho, regue a planta de nº", contador)
+#   contador += 1
+
+# Regar somente os tomates
+# for i in range(6):
+#   if(i%2 == 0):
+#       print("Robozinho, regue o tomate", i)
+
+# Regar somente os tomates
+# for i in range(0,6,2):
+#   print("Robozinho, regue o tomate", i)
