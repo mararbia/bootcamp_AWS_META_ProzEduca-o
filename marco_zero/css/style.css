@@ -1,0 +1,83 @@
+#container{
+    background-color: aliceblue;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    background-color: #587fb3;
+    display: flex;
+    justify-content: center;
+
+}
+
+.title{
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Noto Serif Khojki', serif;
+    color: white;
+}
+
+p{
+    width: 800px;
+    margin: 2em auto 1em;
+    padding: 10px;
+    font-weight: 600;
+}
+
+.image-div{
+    display: flex;
+    justify-content: center;
+}
+
+.image{
+    margin: 2em;
+}
+
+.subtitle{
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Noto Serif Khojki', serif;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    font-size: 1.5em;
+    justify-content: space-evenly;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    padding: 2em;
+    background-color: #587fb3;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    color: blue;
+}
+
+.link-home{
+    display: flex;
+    margin: 20px;
+    flex-direction: row-reverse;
+}
+
+.image-page{
+    margin-bottom: 50px;
+}
+
+
+
+/* font-family: 'Noto Serif Khojki', serif;
+font-family: 'Roboto', sans-serif; */
+

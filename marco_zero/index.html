@@ -5,13 +5,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Home</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Serif+Khojki:wght@400;500&family=Roboto:ital,wght@1,300&display=swap"
+        rel="stylesheet">
 </head>
 
-<body>
+<body id="container">
 
     <header>
-        <h1>Marco Zero - Recife</h1>
+        <h1 class="title">Marco Zero - Recife</h1>
     </header>
 
     <main>
@@ -19,23 +27,28 @@
             <p>
                 Marco Zero, Praça Rio Branco ou Recife Antigo fica localizado no Bairro do Recife que é o Centro
                 Histórico da cidade.
-                <br/>
                 A partir deste marco é realizado todas as medidas oficiais de distâncias rodoviárias.
             </p>
-                <img src="./img/praca-rio-branco.jpg" alt="Imagem Praça Rio Branco em Recife no Pernambuco durante o dia">
-                <br/>
-                <img src="./img/praca-marco-zero.jpg" alt="Imagem Praça Rio Branco em Recife no Pernambuco durante a noite">
-            </section>
-        <section>
-            <span>
-                A placa redonda que se encontra fixada na praça simboliza o marco Zero. 
-                <br/>
-                A placa foi doada pelo Automóvel Clube de Pernambuco à cidade de Recife em 31 de janeiro de 1938.
-                <img src="./img/marco-zero.png" alt="Placa redonda que simboliza o Marco Zero">
-            </span>
+            <div class="image-div">
+                <img class="image" src="./img/praca-rio-branco.jpg"
+                    alt="Imagem Praça Rio Branco em Recife no Pernambuco durante o dia" width="400" height="200">
+                <img class="image" src="./img/praca-marco-zero.jpg"
+                    alt="Imagem Praça Rio Branco em Recife no Pernambuco durante a noite" width="400" height="200">
+            </div>
         </section>
         <section>
-            <h1>Confira outros pontos Turísticos em Recife</h1>
+            <p>
+                A placa redonda que se encontra fixada na praça simboliza o marco Zero.
+                A placa foi doada pelo Automóvel Clube de Pernambuco à cidade de Recife em 31 de janeiro de 1938.
+            </p>
+
+            <div class="image-div">
+                <img class="image" src="./img/marco-zero.png" alt="Placa redonda que simboliza o Marco Zero" width="500"
+                    height="400">
+            </div>
+        </section>
+        <section>
+            <h2 class="subtitle">Confira outros pontos turísticos em Recife - PB</h2>
             <ul>
                 <li><a href="./parque.html">Parque das Esculturas - Francisco Brenannd</a></li>
                 <li><a href="./museu.html">Centro Cultural Cais do Sertão</a></li>
@@ -45,7 +58,7 @@
     </main>
 
     <footer>
-        Praça Rio Branco - Recife - PB 
+        Praça Rio Branco - Recife - PB
     </footer>
 </body>
 
